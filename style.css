@@ -1,0 +1,96 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 20px;
+}
+
+.nav-main-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-main-links li {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 300;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  padding: 50px;
+}
+
+.main-content .left-side {
+  flex-basis: 50%;
+  max-width: 50%;
+  margin-left: 20px;
+}
+.main-content .left-side svg {
+  height: 100%;
+}
+
+.main-content .right-side {
+  flex-basis: 50%;
+  max-width: 50%;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.main-content .smaller-fonts {
+  flex-basis: 50%;
+  max-width: 50%;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.main-content .btn {
+  background: #6629ba;
+  color: white;
+  padding: 15px 10px;
+  width: 150px;
+  border-radius: 20px;
+  border-bottom: none;
+}
+.nav-side-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-side-links li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-side-links li:first-of-type {
+  font-weight: 400;
+}
+
+.nav-side-links li:last-of-type {
+  padding: 15px 10px;
+  border-radius: 20px;
+  background: #6629ba;
+  color: white;
+  width: 150px;
+  text-align: center;
+  margin-left: 20px;
+}
+
